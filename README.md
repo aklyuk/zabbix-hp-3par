@@ -27,3 +27,8 @@ On zabbix web-interface on "storage_name_in_zabbix_web_interface" must be new it
 10) If you have executed this script from console from user root or from another user, please check access permission on file **/tmp/hp_3par_state.log**. It must be allow read, write to user zabbix.
 
 **Return code 1 or 2 is zabbix_sender return code. Read here - https://www.zabbix.com/documentation/4.4/manpages/zabbix_sender**
+
+P.S.
+Overprovisioning on a DynamicStoragePool work not correct. I can't recommend to use this metric.
+P.P.S.
+Monitoring SFP will be added later.
