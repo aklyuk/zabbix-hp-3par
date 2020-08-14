@@ -32,4 +32,4 @@ P.S.
 Overprovisioning on a DynamicStoragePool work not correct. I can't recommend to use this metric.
 
 P.P.S.
-Monitoring SFP will be added later.
+Monitoring of SFP will be added later.
