@@ -30,5 +30,6 @@ On zabbix web-interface on "storage_name_in_zabbix_web_interface" must be new it
 
 P.S.
 Overprovisioning on a DynamicStoragePool work not correct. I can't recommend to use this metric.
+
 P.P.S.
 Monitoring SFP will be added later.
