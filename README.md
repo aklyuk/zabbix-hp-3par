@@ -16,3 +16,12 @@ Python script for monitoring HP 3PAR storages. Tested on HPE_3PAR 8450,  HPE_3PA
 ```
 ./hp_3par_get_state_wbem.py --hp_ip=xxx.xxx.xxx.xxx --hp_port=5989 --hp_user=username_on_storagedevice --hp_password='xxxxxxxxxxxx' --storage_name=storage_name_in_zabbix_web_interface --discovery
 ```
+On zabbix web-interface on "storage_name_in_zabbix_web_interface" must be new items and triggers
+8) On zabbix proxy or on zabbix servers need run **zabbix_proxy -R config_cache_reload** (zabbix_server -R config_cache_reload)
+9) In Linux-console on zabbix-server or zabbix-proxy need run this command to get value of metrics. Scripts must return value 0 in case of success:
+```
+./hp_3par_get_state_wbem.py --hp_ip=xxx.xxx.xxx.xxx --hp_port=5989 --hp_user=username_on_storagedevice --hp_password='xxxxxxxxxxxx' --storage_name=storage_name_in_zabbix_web_interface --status
+```
+10) If you have executed this script from console from user root or from another user, please check access permission on file **/tmp/hp_3par_state.log**. It must be allow read, write to user zabbix.
+
+**Return code 1 or 2 is zabbix_sender return code. Read here - https://www.zabbix.com/documentation/4.4/manpages/zabbix_sender**
