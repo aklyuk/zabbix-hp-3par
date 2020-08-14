@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version>4.4</version>
+    <date>2020-08-14T11:52:23Z</date>
+    <value_maps>
+        <value_map>
+            <name>CIM HPE 3PAR SAS FC Port OtherOperationalStatus</name>
+            <mappings>
+                <mapping>
+                    <value>0</value>
+                    <newvalue>Config Wait</newvalue>
+                </mapping>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>Alpa Wait</newvalue>
+                </mapping>
+                <mapping>
+                    <value>2</value>
+                    <newvalue>Login Wait</newvalue>
+                </mapping>
+                <mapping>
+                    <value>3</value>
+                    <newvalue>OK</newvalue>
+                </mapping>
+                <mapping>
+                    <value>4</value>
+                    <newvalue>Loss Sync</newvalue>
+                </mapping>
+                <mapping>
+                    <value>5</value>
+                    <newvalue>Nonparticipate</newvalue>
+                </mapping>
+                <mapping>
+                    <value>6</value>
+                    <newvalue>Core Dump</newvalue>
+                </mapping>
+                <mapping>
+                    <value>7</value>
+                    <newvalue>Offline</newvalue>
+                </mapping>
+                <mapping>
+                    <value>8</value>
+                    <newvalue>FW Dead</newvalue>
+                </mapping>
+                <mapping>
+                    <value>9</value>
+                    <newvalue>Link Idle For Reset</newvalue>
+                </mapping>
+                <mapping>
+                    <value>10</value>
+                    <newvalue>DHCP In Progress</newvalue>
+                </mapping>
+                <mapping>
+                    <value>11</value>
+                    <newvalue>Pending Reset</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+    </value_maps>
+</zabbix_export>

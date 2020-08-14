@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version>4.4</version>
+    <date>2020-08-14T11:53:08Z</date>
+    <value_maps>
+        <value_map>
+            <name>CIM Operational Status</name>
+            <mappings>
+                <mapping>
+                    <value>0</value>
+                    <newvalue>Unknown</newvalue>
+                </mapping>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>Other</newvalue>
+                </mapping>
+                <mapping>
+                    <value>2</value>
+                    <newvalue>Ok</newvalue>
+                </mapping>
+                <mapping>
+                    <value>3</value>
+                    <newvalue>Degraded</newvalue>
+                </mapping>
+                <mapping>
+                    <value>4</value>
+                    <newvalue>Stressed</newvalue>
+                </mapping>
+                <mapping>
+                    <value>5</value>
+                    <newvalue>Predictive Failure</newvalue>
+                </mapping>
+                <mapping>
+                    <value>6</value>
+                    <newvalue>Error</newvalue>
+                </mapping>
+                <mapping>
+                    <value>7</value>
+                    <newvalue>Non-Recoverable Error</newvalue>
+                </mapping>
+                <mapping>
+                    <value>8</value>
+                    <newvalue>Starting</newvalue>
+                </mapping>
+                <mapping>
+                    <value>9</value>
+                    <newvalue>Stopping</newvalue>
+                </mapping>
+                <mapping>
+                    <value>10</value>
+                    <newvalue>Stopped</newvalue>
+                </mapping>
+                <mapping>
+                    <value>11</value>
+                    <newvalue>In Service</newvalue>
+                </mapping>
+                <mapping>
+                    <value>12</value>
+                    <newvalue>No Contact</newvalue>
+                </mapping>
+                <mapping>
+                    <value>13</value>
+                    <newvalue>Lost Communication</newvalue>
+                </mapping>
+                <mapping>
+                    <value>14</value>
+                    <newvalue>Aborted</newvalue>
+                </mapping>
+                <mapping>
+                    <value>15</value>
+                    <newvalue>Dormant</newvalue>
+                </mapping>
+                <mapping>
+                    <value>16</value>
+                    <newvalue>Supporting Entity in Error</newvalue>
+                </mapping>
+                <mapping>
+                    <value>17</value>
+                    <newvalue>Completed</newvalue>
+                </mapping>
+                <mapping>
+                    <value>18</value>
+                    <newvalue>Power Mode</newvalue>
+                </mapping>
+                <mapping>
+                    <value>19</value>
+                    <newvalue>Relocating</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+    </value_maps>
+</zabbix_export>

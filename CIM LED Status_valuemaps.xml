@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version>4.4</version>
+    <date>2020-08-14T11:52:43Z</date>
+    <value_maps>
+        <value_map>
+            <name>CIM LED Status</name>
+            <mappings>
+                <mapping>
+                    <value>0</value>
+                    <newvalue>Unknown</newvalue>
+                </mapping>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>Off</newvalue>
+                </mapping>
+                <mapping>
+                    <value>2</value>
+                    <newvalue>Green</newvalue>
+                </mapping>
+                <mapping>
+                    <value>3</value>
+                    <newvalue>Green Blinking</newvalue>
+                </mapping>
+                <mapping>
+                    <value>4</value>
+                    <newvalue>Amber</newvalue>
+                </mapping>
+                <mapping>
+                    <value>5</value>
+                    <newvalue>Amber Blinking</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+    </value_maps>
+</zabbix_export>
